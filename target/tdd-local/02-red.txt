@@ -1,0 +1,213 @@
+
+Test run finished after 3841 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[        15 tests found           ]
+[         0 tests skipped         ]
+[        15 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[        14 tests failed          ]
+
+
+Failures (14):
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[1] SolicitacaoCheckout[clienteId=null, email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[2] SolicitacaoCheckout[clienteId=cliente-1, email=null, sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[3] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=null, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[4] SolicitacaoCheckout[clienteId=, email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[5] SolicitacaoCheckout[clienteId=cliente-1, email=, sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[6] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[7] SolicitacaoCheckout[clienteId=  , email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[8] SolicitacaoCheckout[clienteId=cliente-1, email=  , sku=SKU-1, quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[9] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=  , quantidade=1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[10] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=SKU-1, quantidade=0, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[11] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=SKU-1, quantidade=-1, precoUnitario=19.90]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[12] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=null]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[13] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=0]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarDadosInvalidosSemConsultarColaboradores(SolicitacaoCheckout):[14] SolicitacaoCheckout[clienteId=cliente-1, email=cliente@example.com, sku=SKU-1, quantidade=1, precoUnitario=-0.01]
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarDadosInvalidosSemConsultarColaboradores', methodParameterTypes = 'br.edu.checkout.SolicitacaoCheckout']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarDadosInvalidosSemConsultarColaboradores(ServicoCheckoutTest.java:56)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:27)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarDadosInvalidosSemConsultarColaboradores$1(ServicoCheckoutTest.java:56)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]

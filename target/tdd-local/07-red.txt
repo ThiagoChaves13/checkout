@@ -1,0 +1,25 @@
+
+Test run finished after 3401 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        22 tests found           ]
+[         0 tests skipped         ]
+[        22 tests started         ]
+[         0 tests aborted         ]
+[        21 tests successful      ]
+[         1 tests failed          ]
+
+
+Failures (1):
+  JUnit Jupiter:ServicoCheckoutTest:deveManterPedidoConfirmadoSeNotificacaoFalhar()
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveManterPedidoConfirmadoSeNotificacaoFalhar', methodParameterTypes = '']
+    => br.edu.checkout.FalhaNotificacaoException: Falha ao enviar
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:63)
+       br.edu.checkout.ServicoCheckoutTest.deveManterPedidoConfirmadoSeNotificacaoFalhar(ServicoCheckoutTest.java:189)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)

@@ -1,0 +1,31 @@
+
+Test run finished after 7519 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         1 tests failed          ]
+
+
+Failures (1):
+  JUnit Jupiter:ServicoCheckoutTest:deveRejeitarSolicitacaoNulaSemConsultarColaboradores()
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveRejeitarSolicitacaoNulaSemConsultarColaboradores', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+       br.edu.checkout.ServicoCheckoutTest.deveRejeitarSolicitacaoNulaSemConsultarColaboradores(ServicoCheckoutTest.java:41)
+       [...]
+     Caused by: java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:25)
+       br.edu.checkout.ServicoCheckoutTest.lambda$deveRejeitarSolicitacaoNulaSemConsultarColaboradores$0(ServicoCheckoutTest.java:41)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+       [...]

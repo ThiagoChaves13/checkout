@@ -1,0 +1,25 @@
+
+Test run finished after 2433 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[        16 tests found           ]
+[         0 tests skipped         ]
+[        16 tests started         ]
+[         0 tests aborted         ]
+[        15 tests successful      ]
+[         1 tests failed          ]
+
+
+Failures (1):
+  JUnit Jupiter:ServicoCheckoutTest:deveSalvarPedidoEConfirmarCompraAprovadaNaOrdem()
+    MethodSource [className = 'br.edu.checkout.ServicoCheckoutTest', methodName = 'deveSalvarPedidoEConfirmarCompraAprovadaNaOrdem', methodParameterTypes = '']
+    => java.lang.UnsupportedOperationException: Implemente por TDD
+       br.edu.checkout.ServicoCheckout.finalizar(ServicoCheckout.java:33)
+       br.edu.checkout.ServicoCheckoutTest.deveSalvarPedidoEConfirmarCompraAprovadaNaOrdem(ServicoCheckoutTest.java:97)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
